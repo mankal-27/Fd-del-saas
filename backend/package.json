@@ -1,0 +1,46 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "prism": "prisma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mankal-27/Fd-del-saas.git"
+  },
+  "keywords": [
+    "swiggy",
+    "cost",
+    "price",
+    "product",
+    "analysis"
+  ],
+  "author": "Manjunath R K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mankal-27/Fd-del-saas/issues"
+  },
+  "homepage": "https://github.com/mankal-27/Fd-del-saas#readme",
+  "dependencies": {
+    "@prisma/client": "^6.12.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^6.1.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3",
+    "prisma": "^6.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
